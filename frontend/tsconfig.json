@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2021",
+      "lib": ["DOM", "DOM.Iterable", "ES2021"],
+      "allowJs": false,
+      "skipLibCheck": true,
+      "strict": true,
+      "module": "ES2022",
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
+    },
+    "include": ["src"]
+  }
+  

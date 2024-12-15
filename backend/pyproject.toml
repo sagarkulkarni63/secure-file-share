@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "secure-file-share-backend"
+version = "0.1.0"
+description = "A secure file sharing backend"
+authors = ["sagar kulkarni"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2"
+djangorestframework = "^3.14"
+djangorestframework-simplejwt = "^5.2"
+bcrypt = "^4.0"
+pyotp = "^2.8"
+cryptography = "^41.0"
+requests = "^2.31"
+psycopg2-binary = "^2.9"
+django-extensions = "^3.2"
+Werkzeug = "^2.2" 
+django-cors-headers = "^4.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+pytest-django = "^4.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
